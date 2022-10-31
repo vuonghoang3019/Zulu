@@ -1,0 +1,18 @@
+.work {
+    padding-top: 145px;
+    padding-bottom: 50px;
+    &-list {
+        // display: flex;
+        // align-items: stretch;
+        // justify-content: space-between;
+        // 2 khoang trong:" 2 * 70 = 140;
+        // 140 / 3 = 46.67
+        // css grid
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 70px;
+    }
+    // &-item {
+    //     width: calc(33.33% - 46.67px);
+    // }
+}

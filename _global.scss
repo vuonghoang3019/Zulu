@@ -10,6 +10,7 @@ body {
     color: #262e36;
     line-height: 1.5;
     font-family: "Poppings", sans-serif;
+    color: $gray-dark;
 }
 
 img {
@@ -19,12 +20,6 @@ img {
 
 a {
     text-decoration: none;
-}
-
-body {
-    // font-family: ;
-    font-size: 16px;
-    line-height: 1;
 }
 
 .wrapper {
@@ -55,5 +50,45 @@ body {
     &--outline {
         border: 1px solid;
         color: $gray-blur;
+    }
+}
+
+.block {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 85px;
+    &-caption {
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        position: relative;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    &-caption::before {
+        left: 0;
+        transform: translateX(-100%) translateY(-50%);
+    }
+    &-caption::after {
+        right: 0;
+        transform: translateX(100%) translateY(-50%);
+    }
+    &-caption::before, &-caption::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 30px;
+        background-color: $primary-color;
+        top: 50%;
+    }
+    &-heading{
+        text-transform: uppercase;
+        font-size: 50px;
+        line-height: 1.4;
+        span {
+            display: block;
+        }
     }
 }
