@@ -51,6 +51,10 @@ body {
   color: white;
   background-color: #579aff;
 }
+.button--outline {
+  border: 1px solid;
+  color: #a5b2c3;
+}
 
 .header {
   padding: 43px 0 0 0;
@@ -78,6 +82,37 @@ body {
 }
 .header-menu-link:hover {
   color: #579aff;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.banner-info {
+  width: 35%;
+}
+.banner-image {
+  width: 65%;
+  transform: translateX(50px);
+}
+.banner-heading {
+  font-size: 55px;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+.banner-heading span {
+  display: block;
+}
+.banner-desc {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.banner-link .button:first-child {
+  margin-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
