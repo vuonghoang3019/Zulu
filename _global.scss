@@ -83,12 +83,26 @@ a {
         background-color: $primary-color;
         top: 50%;
     }
+    &-cation--left {
+        padding-left: 40px;
+        margin-bottom: 30px;
+    }
+    &-cation--left:after {
+        display: none;
+    }
+    &-cation--left::before {
+        transform: none;
+    }
     &-heading{
-        text-transform: uppercase;
         font-size: 50px;
         line-height: 1.4;
         span {
             display: block;
         }
     }
+}
+
+.text {
+    font-weight: 300;
+    color: $gray;
 }
