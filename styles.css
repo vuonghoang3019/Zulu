@@ -104,6 +104,7 @@ a {
 .text {
   font-weight: 300;
   color: #868d93;
+  line-height: 1.5;
 }
 
 .header {
@@ -217,10 +218,14 @@ a {
   width: 100%;
   max-width: 100%;
   word-break: break-word;
+  display: -webkit-box;
 }
 
 .intro {
   display: flex;
+}
+.intro-desc {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
