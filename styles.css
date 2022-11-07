@@ -156,8 +156,6 @@ a {
   display: block;
 }
 .banner-desc {
-  font-weight: 300;
-  line-height: 1.5;
   margin-bottom: 50px;
 }
 .banner-link .button:first-child {
@@ -223,9 +221,18 @@ a {
 
 .intro {
   display: flex;
+  align-items: center;
+  padding: 110px 0 160px;
+}
+.intro > * {
+  width: 50%;
 }
 .intro-desc {
   margin-bottom: 30px;
+  margin-top: 40px;
+}
+.intro-content {
+  padding-right: 130px;
 }
 
 /*# sourceMappingURL=styles.css.map */

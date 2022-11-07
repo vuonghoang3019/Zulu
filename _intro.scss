@@ -1,8 +1,17 @@
 .intro {
     display: flex;
+    align-items: center;
+    padding: 110px 0 160px;
+    & > * {
+        width: 50%;
+    }
 
     &-desc {
-    
        margin-bottom: 30px;
+       margin-top: 40px;
+    }
+
+    &-content {
+        padding-right: 130px;
     }
 }
