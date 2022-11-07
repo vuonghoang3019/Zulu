@@ -322,4 +322,20 @@ ul {
   font-size: 14px;
 }
 
+.client {
+  padding-bottom: 100px;
+}
+.client-list {
+  display: flex;
+}
+.client-item {
+  flex: 1;
+  padding: 45px 25px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+.client-item:not(:first-child) {
+  margin-left: 70px;
+}
+
 /*# sourceMappingURL=styles.css.map */
