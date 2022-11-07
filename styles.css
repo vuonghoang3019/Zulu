@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -42,6 +46,7 @@ a {
   cursor: pointer;
   background-color: transparent;
   line-height: normal;
+  transition: all 0.2s linear;
 }
 .button--primary {
   color: white;
@@ -233,6 +238,88 @@ a {
 }
 .intro-content {
   padding-right: 130px;
+}
+
+.plan {
+  padding-bottom: 100px;
+}
+.plan-list {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-item {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  width: calc(33.33% - 30px);
+  padding: 75px 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.2s linear;
+}
+.plan-item:hover {
+  border-color: transparent;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.03);
+}
+.plan-item:hover .plan-button-start {
+  border-color: #579aff;
+  background-color: #579aff;
+  color: white;
+}
+.plan-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.plan-price {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+.plan-symbol {
+  vertical-align: top;
+}
+.plan-month {
+  font-weight: 600;
+  font-size: 30px;
+}
+.plan-desc {
+  margin-bottom: 55px;
+}
+.plan-feature {
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+.plan-feature-item {
+  margin-bottom: 25px;
+  color: #868d93;
+  font-weight: 300;
+}
+.plan-feature-item:last-of-type {
+  margin-bottom: 75px;
+}
+.plan-feature-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.plan-button-start {
+  margin: auto auto 0;
+  display: block;
+  width: max-content;
+}
+.plan-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #ff858d;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 0 15px 0 15px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
