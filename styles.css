@@ -387,4 +387,58 @@ ul {
   font-size: 20px;
 }
 
+.started {
+  max-width: 900px;
+  margin: 100px auto 50px;
+  border-radius: 30px;
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.started-heading {
+  margin-bottom: 30px;
+}
+.started-desc {
+  max-width: 245px;
+  margin-bottom: 50px;
+  color: #272e35;
+}
+.started-caption {
+  margin-bottom: 20px;
+}
+.started-comment {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.started-smile {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, -50%);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+.footer-heading {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.footer-link {
+  color: #272e35;
+  display: inline-block;
+  font-size: 14px;
+}
+.footer-link-item {
+  margin-bottom: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */

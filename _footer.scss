@@ -1,0 +1,21 @@
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+
+    &-heading {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    &-link {
+        color: $gray-dark;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    &-link-item {
+        margin-bottom: 25px;
+    }
+}
